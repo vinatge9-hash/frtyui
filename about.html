@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Paws & Whiskers - Our Story</title>
+  <meta name='description' content='Meet the Paws & Whiskers team and our philosophy of loving animal care in Nadargul.'>
+  <link href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+  <script>tailwind.config = { theme: { extend: { fontFamily: { sans: ['Inter','ui-sans-serif','system-ui'] } } } }</script>
+</head>
+<body class='font-sans text-[#1F2937] bg-white'>
+  <!-- Header -->
+  <header class='bg-white shadow'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
+      <div class='flex items-center justify-between h-16'>
+        <a href='index.html' class='text-xl font-bold text-[#1F2937]'>Paws & Whiskers</a>
+        <nav class='hidden md:flex space-x-6'>
+          <a href='index.html' class='text-[#1F2937] hover:text-blue-600 transition-all duration-300'>Home</a>
+          <a href='services.html' class='text-[#1F2937] hover:text-blue-600 transition-all duration-300'>Services</a>
+          <a href='about.html' class='text-[#1F2937] hover:text-blue-600 transition-all duration-300'>Our Story</a>
+          <a href='contact.html' class='text-[#1F2937] hover:text-blue-600 transition-all duration-300'>Contact</a>
+        </nav>
+      </div>
+    </div>
+  </header>
+  <main class='pt-20'>
+    <!-- Hero -->
+    <section class='relative min-h-screen bg-cover bg-center' style="background-image: url('https://images.pexels.com/photos/9374132/pexels-photo-9374132.jpeg?auto=compress&cs=tinysrgb&h=650&w=940');">
+      <div class='absolute inset-0 bg-blue-600/60'></div>
+      <div class='relative z-10 flex items-center justify-center min-h-screen'>
+        <div class='text-center px-6 py-20 md:py-40'>
+          <h1 class='text-4xl md:text-5xl font-extrabold text-white leading-tight'>Our Story</h1>
+          <p class='mt-4 text-white/90 max-w-2xl mx-auto'>Learn about our team, our philosophy, and how we bring heartfelt care to every wagging tail.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team Spotlight -->
+    <section class='py-16 bg-white'>
+      <div class='max-w-7xl mx-auto px-4'>
+        <h2 class='text-2xl font-semibold text-[#1F2937] text-center mb-6'>Meet Our Team</h2>
+        <div class='grid grid-cols-1 md:grid-cols-3 gap-8'>
+          <!-- Person 1 -->
+          <article class='bg-[#F8FAFC] rounded-lg p-6 text-center shadow'>
+            <img src="https://pixabay.com/get/g8db6714f3ae44013afa8afed793c31a4dc9366e6d3a80456bc794026bd2a071e202f8a0e8bb48fda5d214f69cb9a1b05325fb0e831f87f6591752fed95fbbe27_640.jpg" alt='Groomer with a dog' class='w-40 h-40 rounded-full mx-auto object-cover'>
+            <h3 class='mt-4 text-lg font-semibold'>Priya Sharma</h3>
+            <p class='text-sm text-gray-600'>Senior Groomer, 9 years</p>
+          </article>
+          <!-- Person 2 -->
+          <article class='bg-[#F8FAFC] rounded-lg p-6 text-center shadow'>
+            <img src="https://pixabay.com/get/gdfe22f44f16354d0f8de205d801ab5263db2b4de09d25418a32e54fc747e93d2a61566d71eff5b790d707f4767d0d7fbdec9138a92e042b1934b8401867617e4_640.jpg" alt='Team member smiling' class='w-40 h-40 rounded-full mx-auto object-cover'>
+            <h3 class='mt-4 text-lg font-semibold'>Aaliya Khan</h3>
+            <p class='text-sm text-gray-600'>Daycare Lead, 7 years</p>
+          </article>
+          <!-- Person 3 -->
+          <article class='bg-[#F8FAFC] rounded-lg p-6 text-center shadow'>
+            <img src="https://images.pexels.com/photos/7210692/pexels-photo-7210692.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" alt='Lead trainer' class='w-40 h-40 rounded-full mx-auto object-cover'>
+            <h3 class='mt-4 text-lg font-semibold'>Meera Singh</h3>
+            <p class='text-sm text-gray-600'>Boarding Coordinator, 5 years</p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class='bg-[#1F2937] text-white'>
+    <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <section>
+        <h3 class='text-xl font-semibold mb-2'>Paws & Whiskers</h3>
+        <p class='text-sm text-gray-300'>Loving care for dogs with a professional, premium touch.</p>
+      </section>
+      <section>
+        <h4 class='font-semibold mb-2'>Links</h4>
+        <ul class='space-y-2 text-sm'>
+          <li><a href='index.html' class='hover:underline'>Home</a></li>
+          <li><a href='services.html' class='hover:underline'>Services</a></li>
+          <li><a href='about.html' class='hover:underline'>Our Story</a></li>
+          <li><a href='contact.html' class='hover:underline'>Contact</a></li>
+        </ul>
+      </section>
+      <section>
+        <h4 class='font-semibold mb-2'>Newsletter</h4>
+        <form class='flex'>
+          <input type='email' placeholder='Email address' class='w-full px-3 py-2 rounded-l-md bg-white text-black focus:outline-none'>
+          <button class='bg-blue-600 hover:bg-blue-700 text-white px-3 py-2 rounded-r-md'>Subscribe</button>
+        </form>
+      </section>
+    </div>
+    <hr class='border-gray-700 mx-6'>
+    <p class='text-center text-sm text-gray-300 py-2'>© 2025 Paws & Whiskers. Nadargul, Telangana, India</p>
+  </footer>
+
+  <script>
+    window.addEventListener('load', ()=>{ document.body.classList.remove('opacity-0'); });
+  </script>
+</body>
+</html>
